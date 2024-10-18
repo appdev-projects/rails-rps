@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/firstdraft/dev_toolbar
+  revision: 544b3405a22f269488d3e90e85f1230c21546611
+  branch: bp-skip-erd-link-if-none-present
+  specs:
+    dev_toolbar (1.1.0)
+      rails (~> 7.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -448,6 +456,7 @@ DEPENDENCIES
   capybara
   carrierwave
   debug
+  dev_toolbar!
   devise
   dotenv
   draft_generators
