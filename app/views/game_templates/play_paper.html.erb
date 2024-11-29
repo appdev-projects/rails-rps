@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Target: RPS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  </head>
+
+  <body>
+      <div>
+    <a href="/rock">
+      Play Rock
+    </a>
+  </div>
+
+  <div>
+    <a href="/paper">
+      Play Paper
+    </a>
+  </div>
+
+  <div>
+    <a href="/scissors">
+      Play Scissors
+    </a>
+  </div>
+
+  <h2>
+    We played paper!
+  </h2>
+
+  <h2>
+   They played <%= @random_move%>!
+  </h2>
+
+  <h2>
+    We <%= @outcome%>!
+  </h2>
+
+  <a href="/">
+    Rules
+  </a>
+
+  </body>
+</html>
